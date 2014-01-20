@@ -25,10 +25,55 @@ Optional
 * CBLAS
 * LAPACK
 
+## Install dependencies on Linux (Ubuntu > 9.04):
+
+1/ Basic tools
+
+``` sh
+$ apt-get install gcc g++ git libreadline-dev cmake wget
+```
+
+2/ QT4 (at least 4.4)
+
+``` sh
+$ apt-get install libqt4-core libqt4-gui libqt4-dev
+```
+
+3/ Extras
+
+``` sh
+$ apt-get install ffmpeg gnuplot
+```
+
+## Install dependencies on Mac OS X > 10.5:
+
+0/ Install the dev tools (gcc/g++ from Apple),
+   and we highly recommend to get Homebrew
+   (http://mxcl.github.com/homebrew/) as a replacement
+   for MacPorts.
+
+1/ Basic tools, using Homebrew:
+
+``` sh
+$ brew install git readline cmake wget
+```
+
+2/ Install QT4 (at least 4.4)
+
+``` sh
+$ brew install qt
+```
+
+3/ Extras
+
+``` sh
+$ brew install ffmpeg gnuplot
+```
+
 Installation
 ------------
 
-    $ git clone git://github.com/andresy/torch.git
+    $ git clone git://github.com/mzweilin/torch7-distro.git
     $ cd torch
     $ mkdir build
     $ cd build
