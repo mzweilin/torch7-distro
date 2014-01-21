@@ -74,7 +74,7 @@ Installation
 ------------
 
     $ git clone git://github.com/mzweilin/torch7-distro.git
-    $ cd torch
+    $ cd torch7-distro
     $ mkdir build
     $ cd build
 
@@ -92,6 +92,10 @@ Running
     Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
     Lua 5.1  Copyright (C) 1994-2008 Lua.org, PUC-Rio
     t7> 
+    t7> <Ctrl+D>
+    Really quit [y/N]? y
+    $ 
+
 
 3rd Party Packages
 ------------------
